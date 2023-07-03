@@ -1,0 +1,56 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 1rem;
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+li a:hover{
+    color: #fff;
+    color: #000;
+    border: #000 1px solid;
+    border-radius: .25rem;
+}
+body{
+    background-color: #f4f4f4;
+}
+.container{
+    width: 80%;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .card{
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
